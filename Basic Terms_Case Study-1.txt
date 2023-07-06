@@ -1,5 +1,8 @@
+New document
+
 Important words:
-Preview: May change or removed in future
+
+Preview : May change or removed in future
 Lanscape: Web/Desktop view
 Portrait: Mobile view
 Power BI: In documentation refers to Power BI Service
