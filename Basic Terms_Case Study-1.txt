@@ -1,0 +1,83 @@
+Important words:
+Preview: May change or removed in future
+Lanscape: Web/Desktop view
+Portrait: Mobile view
+Power BI: In documentation refers to Power BI Service
+
+
+Dataset: Set of queries,lists, parameters etc. [ we will find in Data Pane]
+Query: Set of columns [typically a table]
+Column: Field: Attribute
+
+Drill Through: One page to another page navigation is called as dril through.
+-----------------------------------------
+Data Display Visuals: [view the data]
+------------------------------------------
+Card Visual: Takes single value [an aggregated value or an expression result value]
+Table Visual: Multiple columns it will display [columnar visual], header and footer available. No drill-down and drill-up.
+Matrix Visual: Cross tab visual [rows vs. columns], row and column totals possible. Supports drill-down and drill-up.
+
+------------------------------------------------------------------------------------------------------------------------------
+Graphical Visual: [compare, composite, distribute, relationship, trend analysis etc.]
+------------------------------------------------------------------------------------------------------------------------------
+Pie Chart: Composition of all categories to 100% and used for less catagories contribution towards 100% and comparing.
+Line Chart: Categories [or a category] trend over period of time graphical display.
+Map: Geographical presentation of values [locations and values ]
+
+
+================================================================================
+Practical:
+=================================================================================
+1. Open Power BI Desktop, Get Data--> Excel Workbook->Browse to excel
+2. Goto Data View[grid view] and verify queries information [proper structure and data elements]
+   Note: A few queries column headings are not proper, so we need to go to Transformation Area
+3.  Data Changes implementation [Transformation]
+
+ Home menu--> Transform data
+   Note: It goes to Power Query Editor [which is an Extract and Transform Area and contain hundreds of transformation options]
+   Go o query which is not having proper column headings-> specify  "First row asheader"
+    Home menu-->Close and apply
+4. Go to the case study and identify the number of tables used in this case study, establish relationships
+
+	Goto Model View--> COnnect dimensions to fact in either of the ways
+	1st way:
+		Drag and drop column from one to another
+	2nd way: Table name->right click->Manage relationships
+
+	DimStudent->Factpayments
+	Dimdate->Factpayments
+	Dimlocation-->Factpayments
+5. More modeling is recommended [calculation values, calculation columns, calculation tables]
+	Note: A few operations we can do graphically, but if you want to implement all operations you need
+		DAX language [Data Analysis Expression Language]
+		
+		DAX: Data Analysis Expressions
+		What it is? A functional or furmula language [around 300 formulas like excel formulas]
+		Why?	"Modeling (relationships)" and "Analytics(aggregate, analytical operations)"
+			Aggregates: Sum, Avg, Max, Min, Count etc.
+			Analytics: Rank, Top, Bottom etc.
+6. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+ 
